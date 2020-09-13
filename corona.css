@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+}
+#myCountry{
+    color: hsl(36, 100%, 90%);
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#myActive{
+    color: rgb(77, 77, 236);
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+   
+}
+#myRecovered{
+    color: rgb(27 198 79);
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+#myRecoveredToday{
+    color: rgb(27 198 79);
+    font-size: 19px;
+    padding-left: 161px;
+}
+#myCasesToday{
+    color: rgb(207, 241, 10);
+    padding-left: 105px;
+    font-size: 19px;
+}
+#myDeathsToday{
+    color: rgb(216, 19, 19);
+    font-size: 19px;
+    padding-left: 120px;
+}
+
+#myDeaths{
+    color: rgb(216, 19, 19);
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+#myCases{
+    color: rgb(207, 241, 10);
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+#info{
+    display: flex;
+}
+#info2{
+    padding: 50px;
+}
+#myChart{
+    height: 500px;
+    width: 50%;
+    display: flex;
+    justify-self: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#map{
+    height: 100vh;
+    width: vw;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}

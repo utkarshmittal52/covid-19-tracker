@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="corona.css">
+    
+<link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+
+</head>
+
+<body>
+    <h1 id="myCountry"> Country: </h1>
+    <div id="info">
+        <div id="info2">
+            <div id="myActive">
+                Active :
+            </div>
+        </div>
+      
+        
+        <div id="info2">
+            <div id="myCases">
+                Cases :
+            </div>
+            <div id="myCasesToday">
+           
+            </div>
+        </div>
+      
+        <div id="info2">
+            <div id="myRecovered">
+                Recovered :
+                  
+                </div>
+                <div id="myRecoveredToday"></div>
+        </div>
+        
+       <div id="info2">
+        <div id="myDeaths">
+            active 9876543
+            </div>
+            <div id="myDeathsToday">
+            </div>
+       </div>
+    </div>
+
+    <div id='map'></div>
+      
+ 
+    <div>   
+        <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+     </div>
+  
+ <script src="corona.js">  </script>
+ <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+ <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoidXRrYXJzaG1pdHRhbDUyIiwiYSI6ImNrZXduczIwaDAxY20zOHBodGgwbDFqdTYifQ.dNPv5a2TJblIMhCS2vQN0Q';
+    var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/dark-v10',
+    zoom: 1
+    });
+ </script>
+ <script src="https://canvasjs.com/assets/script/canvasjs.min.js"> </script> 
+</body>
+
+</html>
